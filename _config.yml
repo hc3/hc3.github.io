@@ -4,7 +4,7 @@ meta_description: "Blog sobre desenvolvimento,Javascript,Webschool,Java,Php"
 
 markdown: kramdown
 highlighter: pygments
-logo: true
+logo: false
 paginate: 15
 baseurl: /
 domain_name: 'https://hc3.github.io/'
