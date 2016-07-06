@@ -17,12 +17,6 @@ em javascript tudo são objetos, existe também NaN , undefined , null. e nesse 
 receber o valor undefined, e podemos entender o undefined como um valor retornado quando algo não foi inicializado, segue o exemplo:
 </p>
 
-{ % highlight linguagem % }
-public static void main() {
-
-}
-{ % endhightlight % }
-
 ````js
 var x;
 
@@ -31,7 +25,7 @@ if(x == undefined) {
 }
 ````
 
-<code>
+````js
 var carro = {
   cor = "vermelho"
 }
@@ -39,21 +33,21 @@ var carro = {
 if(carro.ano == undefined) {
   // a propriedade ano não existe no objeto carro então é undefined
 }
-</code>
+<````
 <p>
   quando não temos certeza se uma variável foi realmente inicializada ou uma propriedade que pode não existir em um objeto, devemos fazer a verificação
 se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, undefined é undefined.
 existe o operador <b>typeof</b> que com esse operador conseguimos saber o tipo de uma variável como no exemplo:
 </p>
 
-<code>
+````js
 var cor = "vemelho"
 
 var tipoCor = typeof cor;
 
 console.log(tipoCor)
 // string
-</code>
+````
 <p>
   criamos uma variável e atribuimos uma string a ela, com o operador <b>typeof</b> conseguimos saber o tipo que no caso acima é uma string.
 </p>
@@ -72,52 +66,52 @@ objeto não existir a função retornará null.
 <p>
   Not a Number ( não é um número ) podemos pensar em quando divimos 0/0 temos um NaN ou se multiplicarmos uma string "jose" * 20 temos um NaN, quando
 o javascript não reconhece como um número existente ele retorna NaN ou seja NaN é usado para representar valores númericos que não podem ser representados,
-NaN é diferente de NaN <code> NaN != NaN </code> ou seja não é com um teste condicional usando if que testamos se é NaN, porque NaN não é igual a nada.
+NaN é diferente de NaN ```` NaN != NaN ```` ou seja não é com um teste condicional usando if que testamos se é NaN, porque NaN não é igual a nada.
 exemplo:
 </p>
 
-<code>
+````js
 if(myNum == NaN) {
   //vai dar merda aqui porque NaN é != de NaN
 }
-</code>
+````
 <p>
 para testa se o valor é NaN usamos uma função especial chamada isNaN, exemplo;
 </p>
-<code>
+````js
 if(isNaN(myNum) {
   //opaaa agora simmm!
 }
-</code>
+````
 <p>
 vamos não pense que NaN não é do tipo Number, segue o exemplo:
 </p>
-<code>
+````js
 var teste = 0/0
 
 console.log(typeof teste)
 //Number
-</code>
+````
 
 <h4>Operadores de igualdade  "==" e "==="</h4>
 <p>
   como comparar valores no javascript? primeiro vamos ter o operador == que compara se um valor é igual ao outro por exemplo:
 </p>
-<code>
+````js
 var n = 99;
 
 if(n == 99) {
   // tudo tranquilo...
 }
-</code>
+````
 
-<code>
+````js
 var n = "99";
 
 if(n == 99) {
   // tudo favorável...
 }
-</code>
+````
 <p>
 veja que no exemplo acima mesmo usando uma string o javascript é esperto o suficiente para saber que a string "99" é igual o número 99, mas como?
 o javascript faz uma pergunta os valores são do mesmo <b>tipo</b> e são <b>iguais</b>? se sim retorna true e se os valores não forem do mesmo tipo mas forem iguais?
@@ -126,29 +120,29 @@ ai ele converte e retorna true então o "99" fica 99 mesmo sendo uma string ele 
 <b>comparar número e string</b>
 javascript converte a string para um número a string se torna um NaN que não é igual a 99
 </p>
-<code>
+````js
 99 == "vermelho"
 
 99 == NaN
 
 // false
-</code>
+````
 <p>
 <b>compara boolean com outro tipo</b>
 nesse caso é algo simples de entender já que true = 1 e false = 0 então ele converte o número para boolean e testa.
 </p>
-<code>
+````js
 1 == true
 
 1 == 1
 
 // true
-</code>
+````
 <p>
 outro exemplo
 nesse caso o boolean é convertido pra número depois a string é convertida pra número e então podemos comparar os dois.
 <p>
-<code>
+````js
 "1" == true
 
 "1" == 1
@@ -156,27 +150,27 @@ nesse caso o boolean é convertido pra número depois a string é convertida pra
 1 == 1
 
 // true
-</code>
+````
 <p>
 <b>comprar null com undefined</b>
 e aqui temos que undefined e null são iguais ( haha ).
 </p>
-<code>
+````js
 undefined == null
 
 // true
-</code>
+````
 <p>
 <b>comprar número e string vazia</b>
 a string  vazia é convertida pra 0 e depois pode ser comprada com o número 1.
 </p>
-<code>
+````js
 1 == ""
 
 1 == 0
 
 // false
-</code>
+````
 <p>
 o operador == pode gerar retornos inesperados se não entermos bem seu funcionamento.
 
@@ -191,23 +185,23 @@ não, eles tem que ser estritamente iguais tem que ter o mesmo <b>tipo</b> e o m
 como que faz? então com o operador + tem que comprar feito porque ele vai converter, então vamos ver como:
 </p>
 
-<code>
+````js
 var add = 3 + "4"  // aqui temos 34  haha
 
 var add2 = "4" + 3 // aqui temos 43 haha
-</code>
+````
 <p>
 se colocarmos uma string e um número e usarmos o operador + ele vai na verdade converter o número em string e contatenar as duas strings resultantes
 vamos ententer complicando um pouco a aritmética.
 </p>
 
-<code>
+````js
 var mult = 3 * "4" // 12
 
 var div = 80 / "10" // 8
 
 var mini = "10" - 5 // 5
-</code>
+````
 <p>
 pois é doidera vamos dizer que se usarmos o operador + o número vai ter preferencia de ser convertido, mas se usarmos os demais operadores, a string
 é que vai ser convertida.
@@ -240,7 +234,7 @@ e para todos os outros o valor sera verdadeiro.
   em javascript existem os tipo primitivos e os objetos, os primitivos são básicos eles recebem um valor e pronto, já os objetos são mais complexos além
 de ter um valor eles podem também ter comportamentos, vamos um exemplo.
 </p>
-<code>
+````js
 var emot = "XOxxOO";
 var hugs = 0;
 var kisses = 0;
@@ -253,12 +247,12 @@ for(var i = 0; i < emot.length ; i++) {
     kisses++;
   }
 }
-</code>
+````
 <p>
 mais o que é isso se a string é um valor primitivo o que são esses métodos? <b>trim()</b>,<b>toUpperCase()</b>,<b>chatAt</b>? isso porque o javascript
 suporta ambos a string tanto é um valor primitivo como um objeto, veja o exemplo:
 </p>
-<code>
+````js
 var name = "Jenny";
 var phone = "867-5309";
 var fact = "This is a prime number";
@@ -267,7 +261,7 @@ var index = phone.indexOf("-");
 if (fact.substring(10, 15) === "prime") {
     alert(fact);
 }
-</code>
+````
 <p>
 criamos três variáveis do tipo string, nesse momento são três valores primitivos depois criamos a variável <b>songName</b> que vai contatenar as strings
 quando criamos a variável index, a variável phone que era um tipo primitivo é temporáriamente convertida para um objeto String e assim conseguimos acessar
