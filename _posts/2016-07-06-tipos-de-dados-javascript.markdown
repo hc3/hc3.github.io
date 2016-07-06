@@ -141,8 +141,10 @@ nesse caso é algo simples de entender já que true = 1 e false = 0 então ele c
 <p>
 outro exemplo
 nesse caso o boolean é convertido pra número depois a string é convertida pra número e então podemos comparar os dois.
-<p>
+</p>
+
 ````js
+
 "1" == true
 
 "1" == 1
