@@ -154,7 +154,7 @@ nesse caso o boolean é convertido pra número depois a string é convertida pra
 // true
 ````
 <p>
-<b>comprar null com undefined</b>
+<b>comprar null com undefined</b></br>
 e aqui temos que undefined e null são iguais ( haha ).
 </p>
 ````js
@@ -163,7 +163,7 @@ undefined == null
 // true
 ````
 <p>
-<b>comprar número e string vazia</b>
+<b>comprar número e string vazia</b></br>
 a string  vazia é convertida pra 0 e depois pode ser comprada com o número 1.
 </p>
 ````js
