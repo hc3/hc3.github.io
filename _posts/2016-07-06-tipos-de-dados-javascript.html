@@ -16,13 +16,13 @@ em javascript tudo são objetos, existe também NaN , undefined , null. e nesse 
   se acessarmos uma variável que não foi inicializada ou uma propriedade inexistente ou que foi deletada ou uma posição que não existem em um array vamos
 receber o valor undefined, e podemos entender o undefined como um valor retornado quando algo não foi inicializado, segue o exemplo:
 </p>
-<code>
+{ % highlight javascript % }
 var x;
 
 if(x == undefined) {
   // x é undefined pois não foi incializada.
 }
-</code>
+{ % endhightlight % }
 
 <code>
 var carro = {
