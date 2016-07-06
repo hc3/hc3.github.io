@@ -116,8 +116,11 @@ if(n == 99) {
 veja que no exemplo acima mesmo usando uma string o javascript é esperto o suficiente para saber que a string "99" é igual o número 99, mas como?
 o javascript faz uma pergunta os valores são do mesmo <b>tipo</b> e são <b>iguais</b>? se sim retorna true e se os valores não forem do mesmo tipo mas forem iguais?
 ai ele converte e retorna true então o "99" fica 99 mesmo sendo uma string ele consegue fazer isso por nós, vamos aos exemplos:
-
+</p>
+<p>
 <b>comparar número e string</b>
+</p>
+<p>
 javascript converte a string para um número a string se torna um NaN que não é igual a 99
 </p>
 ````js
@@ -129,6 +132,8 @@ javascript converte a string para um número a string se torna um NaN que não �
 ````
 <p>
 <b>compara boolean com outro tipo</b>
+</p>
+<p>
 nesse caso é algo simples de entender já que true = 1 e false = 0 então ele converte o número para boolean e testa.
 </p>
 ````js
@@ -139,7 +144,9 @@ nesse caso é algo simples de entender já que true = 1 e false = 0 então ele c
 // true
 ````
 <p>
-outro exemplo
+<b>outro exemplo</b>
+</p>
+<p>
 nesse caso o boolean é convertido pra número depois a string é convertida pra número e então podemos comparar os dois.
 </p>
 
@@ -154,7 +161,9 @@ nesse caso o boolean é convertido pra número depois a string é convertida pra
 // true
 ````
 <p>
-<b>comprar null com undefined</b></br>
+<b>comprar null com undefined</b>
+</p>
+<p>
 e aqui temos que undefined e null são iguais ( haha ).
 </p>
 ````js
@@ -163,7 +172,9 @@ undefined == null
 // true
 ````
 <p>
-<b>comprar número e string vazia</b></br>
+<b>comprar número e string vazia</b>
+</p>
+<p>
 a string  vazia é convertida pra 0 e depois pode ser comprada com o número 1.
 </p>
 ````js
