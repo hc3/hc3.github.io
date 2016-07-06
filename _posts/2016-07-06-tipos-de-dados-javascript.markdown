@@ -13,7 +13,7 @@ em javascript tudo são objetos, existe também NaN , undefined , null. e nesse 
 <h4>undefined</h4>
 
 <p>
-  se acessarmos uma variável que não foi inicializada ou uma propriedade inexistente ou que foi deletada ou uma posição que não existem em um array vamos
+  se acessarmos uma variável que não foi inicializada, ou uma propriedade inexistente, ou que foi deletada, ou uma posição que não existe em um array vamos
 receber o valor undefined, e podemos entender o undefined como um valor retornado quando algo não foi inicializado, segue o exemplo:
 </p>
 
@@ -36,7 +36,7 @@ if(carro.ano == undefined) {
 ````
 <p>
   quando não temos certeza se uma variável foi realmente inicializada ou uma propriedade que pode não existir em um objeto, devemos fazer a verificação
-se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, undefined é undefined.
+se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, <b>undefined é undefined</b>.
 existe o operador <b>typeof</b> que com esse operador conseguimos saber o tipo de uma variável como no exemplo:
 </p>
 
@@ -55,7 +55,7 @@ console.log(tipoCor)
 <h4>null</h4>
 
 <p>
-  o null é bem parecido com undefined o que pode causar uma certa confusão, por exemplo quando tentamos pegar um elemento DOM com o getElementById
+  o null é bem parecido com undefined só que pode causar uma certa confusão, por exemplo quando tentamos pegar um elemento DOM com o getElementById
 se esse elemento não existir a função vai retornar null, isso porque não existe o objeto, null é usado para objetos que não existem e undefined para
 pripriedade do objeto, na maioria das vezes vamos nos deparar com undefined, null vai ser o valor retornado por funções que retornam um objeto se esse
 objeto não existir a função retornará null.
@@ -64,7 +64,7 @@ objeto não existir a função retornará null.
 <h4>NaN</h4>
 
 <p>
-  Not a Number ( não é um número ) podemos pensar em quando divimos 0/0 temos um NaN ou se multiplicarmos uma string "jose" * 20 temos um NaN, quando
+  Not a Number ( não é um número ) podemos pensar em NaN quando divimos 0/0 temos um NaN ou se multiplicarmos uma string <b>"jose" * 20</b> temos um NaN, quando
 o javascript não reconhece como um número existente ele retorna NaN ou seja NaN é usado para representar valores númericos que não podem ser representados,
 NaN é diferente de NaN ```` NaN != NaN ```` ou seja não é com um teste condicional usando if que testamos se é NaN, porque NaN não é igual a nada.
 exemplo:
@@ -76,7 +76,7 @@ if(myNum == NaN) {
 }
 ````
 <p>
-para testa se o valor é NaN usamos uma função especial chamada isNaN, exemplo;
+para testar se o valor é NaN usamos uma função especial chamada isNaN, exemplo;
 </p>
 ````js
 if(isNaN(myNum) {
@@ -114,7 +114,7 @@ if(n == 99) {
 ````
 <p>
 veja que no exemplo acima mesmo usando uma string o javascript é esperto o suficiente para saber que a string "99" é igual o número 99, mas como?
-o javascript faz uma pergunta os valores são do mesmo <b>tipo</b> e são <b>iguais</b>? se sim retorna true e se os valores não forem do mesmo tipo mas forem iguais?
+o javascript faz uma pergunta, os valores são do mesmo <b>tipo</b> e são <b>iguais</b>? se sim retorna true e se os valores não forem do mesmo tipo mas forem iguais?
 ai ele converte e retorna true então o "99" fica 99 mesmo sendo uma string ele consegue fazer isso por nós, vamos aos exemplos:
 </p>
 <p>
