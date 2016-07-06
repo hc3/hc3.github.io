@@ -33,7 +33,7 @@ var carro = {
 if(carro.ano == undefined) {
   // a propriedade ano não existe no objeto carro então é undefined
 }
-<````
+````
 <p>
   quando não temos certeza se uma variável foi realmente inicializada ou uma propriedade que pode não existir em um objeto, devemos fazer a verificação
 se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, undefined é undefined.
