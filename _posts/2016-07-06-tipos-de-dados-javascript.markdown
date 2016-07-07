@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Tipos de dados no javascript"
+title:  "Introdução ao tipo em javascript"
 date:   2016-07-05 10:35:00
-categories: javascript.
+categories: Javascript básico.
 ---
 <p>
 <b>
-javascript tudo são objetos, existe também NaN , undefined , null. e nesse capitulo vamos desvendar esses tipos de dados.
+Aqui nesse primeiro post vou fazer um resumo baseado no capitulo 07 do livro <b> Head First Javascript programming </b> vou fazer uma introdução a alguns tipos "exóticos" do javascript e pra começar vamos entender que no javascript tudo são objetos, existe também NaN , undefined , null. e nesse post vamos desvendar esses tipos de dados.
 </b>
 </p>
 <h4>undefined</h4>
@@ -34,8 +34,7 @@ if(carro.ano == undefined) {
 }
 ````
 <p>
-  quando não temos certeza se uma variável foi realmente inicializada ou uma propriedade que pode não existir em um objeto, devemos fazer a verificação
-se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, <b>undefined é undefined</b>.
+  quando não temos certeza se uma variável foi realmente inicializada ou se propriedade realmente existe, devemos fazer a verificação se o valor é undefined, o valor undefined é um tipo mas não é nem uma string, numero ou boolean, <b>undefined é undefined</b>.
 existe o operador <b>typeof</b> que com esse operador conseguimos saber o tipo de uma variável como no exemplo:
 </p>
 
@@ -91,7 +90,7 @@ var teste = 0/0
 console.log(typeof teste)
 //Number
 ````
-
+<p>NaN é um Number que o javascript não consegue representar</p>
 <h4>Operadores de igualdade  "==" e "==="</h4>
 <p>
   como comparar valores no javascript? primeiro vamos ter o operador == que compara se um valor é igual ao outro por exemplo:
@@ -160,7 +159,7 @@ nesse caso o boolean é convertido pra número depois a string é convertida pra
 // true
 ````
 <p>
-<b>comprar null com undefined</b>
+<b>comparar null com undefined</b>
 </p>
 <p>
 e aqui temos que undefined e null são iguais ( haha ).
@@ -171,10 +170,10 @@ undefined == null
 // true
 ````
 <p>
-<b>comprar número e string vazia</b>
+<b>comparar número e string vazia</b>
 </p>
 <p>
-a string  vazia é convertida pra 0 e depois pode ser comprada com o número 1.
+a string  vazia é convertida pra 0 e depois pode ser comparada com o número 1.
 </p>
 ````js
 1 == ""
@@ -187,14 +186,14 @@ a string  vazia é convertida pra 0 e depois pode ser comprada com o número 1.
 o operador == pode gerar retornos inesperados se não entermos bem seu funcionamento.
 
   o segundo operador é o strict equality "===", isso mesmo três... com o operador "==" os valores são convertidos quando for preciso, com o operador "==="
-não, eles tem que ser estritamente iguais tem que ter o mesmo <b>tipo</b> e o mesmo <b>valor</b>.
+não, eles tem que ser estritamente iguais ou seja tem que ter o mesmo <b>tipo</b> e o mesmo <b>valor</b>.
 </p>
 
-<h4>contatenação</h4>
+<h4>concatenação</h4>
 
 <p>
   vamos falar um pouco sobre o operador + ( adição ) que é usado também para contatenar strings, e se tivermos um número e uma string usando o operador +
-como que faz? então com o operador + tem que comprar feito porque ele vai converter, então vamos ver como:
+como que faz? então com o operador + tem que comparar feito porque ele vai converter, então vamos ver como:
 </p>
 
 ````js
@@ -222,10 +221,10 @@ pois é doidera vamos dizer que se usarmos o operador + o número vai ter prefer
 <h4>Objetos</h4>
 
 <p>
-   e como determinar se dois objetos são iguais? quando vimos os operadores "==" e "===" entendemos a diferença entre os dois para se comprar valores primitivos
-mas quando a questão são objetos não importa, vai dar na mesma quanto testamos se dois objetos são iguais estamos testando se eles tem a mesma referencia
-então se temos o obj1 e obj2 e as variáveis v1 para obj1 e v2 para obj2 v1 e v2 são diferentes pois são variáveis com referencia para dois objetos diferentes
-mais ai criamos a variável v3 e referenciamos o obj1 e agora comparamos v1 e v3 são iguais!
+   e como determinar se dois objetos são iguais? quando vimos os operadores "==" e "===" entendemos a diferença entre os dois para se comparar valores primitivos
+mas quando a questão são objetos não importa, vai dar na mesma quanto testarmos se dois objetos são iguais estamos testando se eles tem a mesma referência
+então se temos o obj1 e obj2 e as variáveis v1 para obj1 e v2 para obj2 v1 e v2 são diferentes pois são variáveis com referência para dois objetos diferentes
+mais ai criamos a variável v3 e referenciamos para o obj1 e agora comparamos v1 e v3 são iguais!
 </p>
 
 <h4>O que o javascript considera falso</h4>
@@ -277,7 +276,7 @@ if (fact.substring(10, 15) === "prime") {
 <p>
 criamos três variáveis do tipo string, nesse momento são três valores primitivos depois criamos a variável <b>songName</b> que vai contatenar as strings
 quando criamos a variável index, a variável phone que era um tipo primitivo é temporáriamente convertida para um objeto String e assim conseguimos acessar
-o método indexOf desse objeto na linha subsequente temos a variável fact que sofre o mesmo processo e acessa o método substring e no final temos um alert
+o método indexOf desse objeto na linha subseqüente temos a variável fact que sofre o mesmo processo e acessa o método substring e no final temos um alert
 onde a variável fact voltou a ser um valor primitivo do tipo string.
 confuso? hehe eu também fiquei quando li pela primeira vez, mas veja bem não precisamos nos preocupar com nada disso ao criarmos uma string temos que ter
 em mente que temos um tipo com super poderes o javascript vai cuidar de todo o resto.
