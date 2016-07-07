@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iniciando estudos webschool"
+title:  "Iniciando estudos de javascript"
 date:   2016-07-07 08:35:00
 categories: Javascript básico.
 ---
