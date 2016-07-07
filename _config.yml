@@ -1,6 +1,5 @@
 name: Hc3
 description: 'Blog feito para compartilhar meus estudos.'
-bio: 'eliel dev'
 meta_description: "Blog sobre desenvolvimento,Javascript,Webschool,Java,Php"
 
 markdown: kramdown
@@ -15,4 +14,3 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'https://hc3.github.io/'
 author:         'Hc3'
-bio: 'eliel dev'
