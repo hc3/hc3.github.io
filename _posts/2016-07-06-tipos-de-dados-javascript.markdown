@@ -9,6 +9,8 @@ categories: Javascript básico.
 Aqui nesse primeiro post vou fazer um resumo baseado no capitulo 07 do livro <b> Head First Javascript programming </b> vou fazer uma introdução a alguns tipos "exóticos" do javascript e pra começar vamos entender que no javascript tudo são objetos, existe também NaN , undefined , null. e nesse post vamos desvendar esses tipos de dados.
 </b>
 </p>
+<br/>
+<br/>
 <h4>undefined</h4>
 
 <p>
