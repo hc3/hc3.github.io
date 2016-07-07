@@ -22,28 +22,28 @@ primeiro vou indicar conteúdos escritos, pq vejo que a galera assiste muitos v�
 
 <h4>Livros e tutoriais</h4>
 
-[Loiane Groner](http://loiane.com/) - livros tipo MUITOS livros...
-[William Bruno](http://wbruno.com.br/) - esse cara aqui é foda também
-[nomaDev](http://nomadev.com.br/) - Blog do Suissa!
-[Traduz-ai](https://github.com/ericdouglas/traduz-ai) - SÓ TENHO A AGRADEÇER A ESSES CARAS!
-[Webschool](https://github.com/Webschool-io/be-mean-instagram/tree/master/Apostila) - conteúdo escrito da Webschool
-[Eloquent Javascript](https://github.com/braziljs/eloquente-javascript) - um brilhante trabalho de tradução
-[Style guide Jhon papa](https://github.com/johnpapa/angular-styleguide) - eu sigo esse code style
+[Loiane Groner](http://loiane.com/) - livros tipo MUITOS livros...,
+[William Bruno](http://wbruno.com.br/) - esse cara aqui é foda também,
+[nomaDev](http://nomadev.com.br/) - Blog do Suissa!,
+[Traduz-ai](https://github.com/ericdouglas/traduz-ai) - SÓ TENHO A AGRADEÇER A ESSES CARAS!,
+[Webschool](https://github.com/Webschool-io/be-mean-instagram/tree/master/Apostila) - conteúdo escrito da Webschool,
+[Eloquent Javascript](https://github.com/braziljs/eloquente-javascript) - um brilhante trabalho de tradução,
+[Style guide Jhon papa](https://github.com/johnpapa/angular-styleguide) - eu sigo esse code style,
 
 
 
 <h4>Vídeo aulas</h4>
 
 
-[webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg/featured) - Webschool
-[Eu programador](https://www.youtube.com/channel/UC7c2c7E1L9xhCinShl8-iZA) - Muito massa React Redux
-[CSS CastShow](https://www.youtube.com/channel/UC9d_htYmYYFUXB2vBKx4NgA) - Front-End top!
-[Brazil JS](https://www.youtube.com/user/BrazilJS) - Obrigatório weekly
-[Fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) - mesmo sem saber inglês da pra aprender
-[JS Masters](https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw) - conheço a pouco tempo mais é bom
-[Rodrigo Branas](https://www.youtube.com/user/rodrigobranas) - esse cara é foda!!!
-[Loiane Groner](https://www.youtube.com/user/Loianeg) - essa moça é foda!!!
-[Update sem where](https://www.youtube.com/channel/UCZmp5CT7ASVdDkRZMzptLFw) - estou esperando a volta desse canal =/
+[webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg/featured) - Webschool,
+[Eu programador](https://www.youtube.com/channel/UC7c2c7E1L9xhCinShl8-iZA) - Muito massa React Redux,
+[CSS CastShow](https://www.youtube.com/channel/UC9d_htYmYYFUXB2vBKx4NgA) - Front-End top!,
+[Brazil JS](https://www.youtube.com/user/BrazilJS) - Obrigatório weekly,
+[Fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) - mesmo sem saber inglês da pra aprender,
+[JS Masters](https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw) - conheço a pouco tempo mais é bom,
+[Rodrigo Branas](https://www.youtube.com/user/rodrigobranas) - esse cara é foda!!!,
+[Loiane Groner](https://www.youtube.com/user/Loianeg) - essa moça é foda!!!,
+[Update sem where](https://www.youtube.com/channel/UCZmp5CT7ASVdDkRZMzptLFw) - estou esperando a volta desse canal =/,
 
 existe muito matérial de Javascript no youtube citei aqui os que já assisti ou assito sempre, como o Weekly do BrazilJS ou PodTech do Eu Programador, o me da sua 80 do update sem where (tenho esperança de que ele grave mais vídeos), mas resumindo com Rodrigo Branas + Webschool + Fun functions + Loiane Groner da pra aprender coisa pra caramba mais tipo MUITA coisa mesmo eles vão do básico ao avançado ensinando JS puro, frameworks boas práticas enfim vale a pena conhecer cada um desses canais e seguir também nós que estamos aprendendo devemos ter várias fontes de conhecimento até pq você pode gostar de uma determinada forma de ensino e cada professor tem seu método.
 
