@@ -6,8 +6,7 @@ categories: javascript.
 ---
 <p>
 <b>
--Tipos de dados em javascript, como já vimos nos capitulos anteriores o javascript possui tipo básicos como String, Numbers e Boolean e tem os Objetos,
-em javascript tudo são objetos, existe também NaN , undefined , null. e nesse capitulo vamos desvendar esses tipos de dados.
+javascript tudo são objetos, existe também NaN , undefined , null. e nesse capitulo vamos desvendar esses tipos de dados.
 </b>
 </p>
 <h4>undefined</h4>
