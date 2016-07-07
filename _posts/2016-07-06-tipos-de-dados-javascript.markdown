@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introdução ao tipo em javascript"
+title:  "Introdução ao javascript"
 date:   2016-07-05 10:35:00
 categories: Javascript básico.
 ---
