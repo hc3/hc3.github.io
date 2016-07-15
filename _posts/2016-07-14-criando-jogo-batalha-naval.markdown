@@ -9,7 +9,7 @@ Falaa galera, nesse post vamos criar um jogo de batalha naval baseado no capitul
 
 <h3> Iniciando e trabalhando conceitos </h3>
 o jogo batalha naval é bastante conhecido, vamos ter uma grade onde os navios vão estar escondidos e essa grade é composta por linhas e colunas, sendo que as linhas são referenciadas por letras e as colunas por números, vamos agora ao design do jogo lembrando que design ( HTML e CSS ), já estamos cansados de saber que o html será responsável pela estrutra da página e o css vai aplicar estilo a mesma e o javascript vai aplicar o comportamento ( behavior ).
-### 01 PASSO
+<h5>1º PASSO</h5>
 ````html
   <!doctype html>
 
@@ -40,7 +40,7 @@ o jogo batalha naval é bastante conhecido, vamos ter uma grade onde os navios v
 ````
 podemos ver aqui a criação de uma div que recebe o id="board" com esse id podemos apliar estilo usando css como podemos ver em <b>div#board</b>, body recebe uma cor de fundo a div board vai tem uma posição relativa tem um width e heigth, uma magem automática e um background que é a justamente a imagem onde o jogo vai rodar em cima o no-repeat é para que a imagem seja exibida apenas uma vez, aqui já podemos dar um f5 e ver a página atualizando.
 
-### 02 PASSO
+<h5>2º PASSO</h5>
 
 ````html
 <table>
@@ -111,7 +111,7 @@ podemos ver aqui a criação de uma div que recebe o id="board" com esse id pode
 ````
 o próximo passo é a criação de uma tabela vamos entender bem o que está sendo feito essa tabela possui 7 <tr> e cada tr possui 7 <td> isso é exatamente o que a imagem board.jpg tem uma tabela 7x7 e com isso podemos criar as células onde os jogadores poderam tentar acertar nos navios podemos notar aqui que essas células no jogo de batalha naval tem uma nomenclatura diferente lá a célula "00" é "A1".
 
-### 03 PASSO
+<h5>3º PASSO</h5>
 
 ````html
 <div id="board">
@@ -180,7 +180,7 @@ veremos que na célula B3 vamos ter um navio que representa um hit ou seja quand
 <h3> Implementando o design do jogo! </h3>
 
 já criamos todo o layout do jogo com html e css agora vamos implementar os comportamentos ( BEHAVIOOOR ) e agora é só JS da aqui a frente, rs, primeiro conceito que quero passar aqui é de responsabilidade única ou MVC ( model view controller ), acredito que hoje em dia essa sigla seja bastante conhecida já que a galera ve isso em muitos frameworks de PHP , Java ... e tarará, primeiro de tudo vamos criar um arquivo chamado jogo.js colocar na mesma pasta do html e css abrindo arquivo vamos começar criando a view.
-#### VIEW
+<h5> VIEW </h5>
 a view vai ter os métodos para exibir mensagens dependendo do que estiver acontecendo no jogo, por exemplo se o usuário acertar uma jogada vai exibir "HIT" se não "MISS" vamos ver a implementação desse objeto.
 
 ````js
@@ -212,4 +212,4 @@ view.displayHit("26");
 view.displayMessage("Tap tap, is this thing on?");
 ````
 
-<h3> o Model </h3>
+<h5> o Model </h5>
