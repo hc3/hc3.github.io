@@ -213,3 +213,5 @@ view.displayMessage("Tap tap, is this thing on?");
 ````
 
 <h5> o Model </h5>
+O model será responsável pelo estado do objeto e isso inclui a localização dos navios, se eles receberam um hit ou seja se o usuário acertou a tentativa, quantos navios ainda faltam serem destruidos e se o jogo acabou, o model também avisará a view de mudanças no jogo por exemplo se o usuário acertar um hit o model e o responsável de avisar a view para que ela mude.
+338
