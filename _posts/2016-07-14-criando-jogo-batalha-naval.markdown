@@ -10,7 +10,7 @@ Falaa galera, nesse post vamos criar um jogo de batalha naval baseado no capitul
 <h3> Iniciando e trabalhando conceitos </h3>
 o jogo batalha naval é bastante conhecido, vamos ter uma grade onde os navios vão estar escondidos e essa grade é composta por linhas e colunas, sendo que as linhas são referenciadas por letras e as colunas por números, vamos agora ao design do jogo lembrando que design ( HTML e CSS ), já estamos cansados de saber que o html será responsável pela estrutra da página e o css vai aplicar estilo a mesma e o javascript vai aplicar o comportamento ( behavior ).
 ### 01 PASSO
-````HTML
+````html
   <!doctype html>
 
   <html>
@@ -180,3 +180,36 @@ veremos que na célula B3 vamos ter um navio que representa um hit ou seja quand
 <h3> Implementando o design do jogo! </h3>
 
 já criamos todo o layout do jogo com html e css agora vamos implementar os comportamentos ( BEHAVIOOOR ) e agora é só JS da aqui a frente, rs, primeiro conceito que quero passar aqui é de responsabilidade única ou MVC ( model view controller ), acredito que hoje em dia essa sigla seja bastante conhecida já que a galera ve isso em muitos frameworks de PHP , Java ... e tarará, primeiro de tudo vamos criar um arquivo chamado jogo.js colocar na mesma pasta do html e css abrindo arquivo vamos começar criando a view.
+#### VIEW
+a view vai ter os métodos para exibir mensagens dependendo do que estiver acontecendo no jogo, por exemplo se o usuário acertar uma jogada vai exibir "HIT" se não "MISS" vamos ver a implementação desse objeto.
+
+````js
+var view = {
+  displayMessage: function(msg){
+    var messageArea = document.getElementById("messageArea");
+    messageArea.innerHTML = msg;
+  },
+  displayHit: function(location){
+    var cell = document.getElementById(location);
+    cell.setAttribute("class","hit");
+  },
+  displayMiss: function(location){
+    var cell = document.getElementById(location);
+    cell.setAttribute("class","miss");
+  }
+};
+````
+displayMessage = podemos ver que displayMessage captura o elemento usando getElementById passando o ID do elemento a partir da ai conseguimos manipular o DOM e usando o innerHTML colocamos a mensagem na <div id="messageArea">.
+displayHit e displayMiss =  primeiro vamos pegar o location que é o ID do <td> ou seja a célula que vai ser atacada usando o getElementById podemos pegar o elemento e depois usando o método setAttribute passamos duas strings como argumento a primeira é o tipo que será class a segunda é a qual será o valor dessa classe e podemos fazer isso tanto para o hit quanto para o miss, feito isso podemos realizar um teste básico:
+
+````js
+view.displayMiss("00");
+view.displayHit("34");
+view.displayMiss("55");
+view.displayHit("12");
+view.displayMiss("25");
+view.displayHit("26");
+view.displayMessage("Tap tap, is this thing on?");
+````
+
+<h3> o Model </h3>
