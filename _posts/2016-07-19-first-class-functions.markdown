@@ -4,8 +4,7 @@ title:  "Funções de primeira classe"
 date:   2016-07-19 09:20:00
 categories: Javascript básico.
 ---
-<br/>
-<br/>
+
 
 -Funções de primeira classe, quando funções são tratadas como valores que podem ser passados, retornados, manipulados.
 
