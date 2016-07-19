@@ -266,7 +266,7 @@ finalizamos essa primeira parte que irá se aprofundar um pouco em funções aqu
 
 Links referências:
 
-[Artigo da BrazilJS](https://braziljs.org/blog/funcoes-em-javascript/)
-[Fun functions](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=1)
-[Rodrigo Branas](https://www.youtube.com/watch?v=OqR0hE-DQn4)
+[Artigo da BrazilJS](https://braziljs.org/blog/funcoes-em-javascript/) <br/>
+[Fun functions](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=1)<br/>
+[Rodrigo Branas](https://www.youtube.com/watch?v=OqR0hE-DQn4)<br/>
 [Webschool JS Funcional](https://www.youtube.com/watch?v=zPL6WWpA__o&index=5&list=PL77JVjKTJT2iAlBJX3buyljqzfoR9nV_R)
