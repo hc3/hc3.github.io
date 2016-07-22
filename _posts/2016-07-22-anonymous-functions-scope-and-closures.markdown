@@ -5,7 +5,7 @@ date:   2016-07-22 10:29:00
 categories: Javascript básico.
 ---
 
-## Funções de anônimas, scope e closures.
+
 
 Já conhecemos as duas maneiras de se criar funções em javascript, sendo elas **function declaration** e **function expression**, mas ainda existem as **anonymous Functions** ou seja funções que não tem nome, quando criamos uma declaration estamos definitivamente dando um nome para função mas quando criamos uma function expression não estamos dando um nome para a função e sim atribuindo a mesma para uma variável, e nesse contexto entram as funções anônimas.
 
