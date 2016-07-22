@@ -221,10 +221,10 @@ setTimer("Cookies are done!", 1000);
 ````
 quando a função for chamada a variável **doneMessage** exibirá a mensagem "OUCH!" , pois a closure pega o valor atual e não a referência passada.
 
-# RESUMO
+### RESUMO
 vou fazer um resumo do que entendi desse estudo já que abordei assuntos que serão muito utilizados durante o desenvolvimento, vamos começar com as funções anônimas que vão nos ajudar e muito quando chegarmos no assunto de callback vamos entender melhor como as funções anônimas são importantes. Scope é outro assunto que devemos ter em mente de maneira sólida para não fazer merda declarar muitas variáveis no escopo global é um anti pattern que devemos evitar, functions declarations x functions expressions é um assunto que deve ser muito estudado e entendido no próximo post vou abordar de uma maneira mais prática o assunto já que vamos falar de objetos. Closures foi a atriz principal dese post uma closure é quando uma função interna acessa as variáveis de uma função externa a closure tem três escopos o próprio escopo onde as variáveis são declaradas entre chaves, tem acesso as variáveis declaradas na função externa e tem acesso as variáveis globais ( as quais todos tem acesso! ),a função interior não só tem acesso as variáveis da função exterior como também tem acesso aos parâmetros da mesma.
 
-## ARTIGOS >
-Recomendo demais esse artigo aqui e mais uma vez muito obrigado a galera que faz essas traduções no repo **traduz-ai**
+### ARTIGOS
+Recomendo demais esse artigo aqui e mais uma vez muito obrigado a galera que faz essas traduções no repo [**traduz-ai**](https://github.com/ericdouglas/traduz-ai/tree/master/javascript), vocês são 10!.
 
-[Traduz-ai closures](https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md)
+[Closures](https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md)
