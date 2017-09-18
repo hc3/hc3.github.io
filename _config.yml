@@ -1,7 +1,7 @@
 
-title: My Resume
+title: Resumo
 url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/hc3.github.io' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -13,17 +13,17 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
+name: Eliel das Virgens
 tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
+email: eliel.floyd@bol.com.br
+phone: +55 074 98815-1905
 website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+linkedin: eliel-das-virgens-b44a6ba2
+github: hc3
+twitter: ''
 
 
 # Tracker
