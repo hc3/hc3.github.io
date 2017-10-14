@@ -15,7 +15,7 @@ baseurl: '/hc3.github.io' #change it according to your repository name
 #Profile information
 name: Eliel das Virgens
 tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: eliel.floyd@bol.com.br
